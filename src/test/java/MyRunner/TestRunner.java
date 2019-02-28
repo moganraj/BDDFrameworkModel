@@ -11,8 +11,8 @@ import cucumber.api.junit.Cucumber;
 		format = {"pretty","html:test-outout", "json:json_output/cucumber.json", "junit:junit_xml/cucumber.xml"},
 		monochrome = true, 
 		strict = true, 
-		dryRun = false 
-		//tags = {"~@SmokeTest" , "~@RegressionTest", "~@End2End"}			
+		dryRun = false,
+		tags = {"@SmokeTest , @RegressionTest"}			
 		)
 
 public class TestRunner {

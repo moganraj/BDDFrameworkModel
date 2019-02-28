@@ -1,6 +1,6 @@
 Feature: Sample Login Page Feature
 
-
+@RegressionTest @SmokeTest @End2End
 Scenario: Login to Sample
 
 Given User in the login page

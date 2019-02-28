@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="18.862782">
-<testcase classname="Sample Login Page Feature" name="Login to Sample" time="11.387219">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="38.487422">
+<testcase classname="Sample Create Contacts" name="Sample Create a new contact scenario" time="12.17696">
+<system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page....................................................passed
+Then user enters "mogan" and "test@123".....................................passed
+And user clicks on login button.............................................passed
+And user is on home page....................................................passed
+Given user moves to new contact page........................................passed
+When user enters contact details "Mogan" and "NM" and "Automation QE".......passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sample Create Contacts" name="Sample Create a new contact scenario 2" time="8.750807">
+<system-out><![CDATA[Given user is already on Login Page.........................................passed
+When title of login page....................................................passed
+Then user enters "sadha" and "test@123".....................................passed
+And user clicks on login button.............................................passed
+And user is on home page....................................................passed
+Given user moves to new contact page........................................passed
+When user enters contact details "Sadha" and "NM" and "Dev".................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sample Login Page Feature" name="Login to Sample" time="7.839783">
 <system-out><![CDATA[Given User in the login page................................................passed
 When User enter username and password.......................................passed
 And User click the Loginbutton..............................................passed
 Then User navigate to the Homepage..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Register as new user in Sample" name="User Signup" time="7.475563">
+<testcase classname="Register as new user in Sample" name="User Signup" time="9.719872">
 <system-out><![CDATA[Given User Navigate to new account setup....................................passed
 When Registeration page is loaded...........................................passed
 Then Fill the form and Submit...............................................passed
