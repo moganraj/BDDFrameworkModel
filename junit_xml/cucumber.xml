@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="18.862782">
+<testcase classname="Sample Login Page Feature" name="Login to Sample" time="11.387219">
+<system-out><![CDATA[Given User in the login page................................................passed
+When User enter username and password.......................................passed
+And User click the Loginbutton..............................................passed
+Then User navigate to the Homepage..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register as new user in Sample" name="User Signup" time="7.475563">
+<system-out><![CDATA[Given User Navigate to new account setup....................................passed
+When Registeration page is loaded...........................................passed
+Then Fill the form and Submit...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

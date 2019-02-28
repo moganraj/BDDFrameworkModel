@@ -1,0 +1,170 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6225353585,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setpdef.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login to Sample",
+        "description": "",
+        "id": "sample-login-page-feature;login-to-sample",
+        "after": [
+          {
+            "result": {
+              "duration": 5076928000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setpdef.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 84491979,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User in the login page",
+            "match": {
+              "location": "Setpdef.user_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 140341,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter username and password",
+            "match": {
+              "location": "Setpdef.user_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170111,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click the Loginbutton",
+            "match": {
+              "location": "Setpdef.user_click_the_Loginbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135150,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigate to the Homepage",
+            "match": {
+              "location": "Setpdef.user_navigate_to_the_Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sample Login Page Feature",
+    "description": "",
+    "id": "sample-login-page-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2394447889,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setpdef.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User Signup",
+        "description": "",
+        "id": "register-as-new-user-in-sample;user-signup",
+        "after": [
+          {
+            "result": {
+              "duration": 5080922184,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Setpdef.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45369,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Navigate to new account setup",
+            "match": {
+              "location": "Setpdef.user_Navigate_to_new_account_setup()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Registeration page is loaded",
+            "match": {
+              "location": "Setpdef.registeration_page_is_loaded()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56594,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Fill the form and Submit",
+            "match": {
+              "location": "Setpdef.fill_the_form_and_Submit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register as new user in Sample",
+    "description": "",
+    "id": "register-as-new-user-in-sample",
+    "keyword": "Feature",
+    "uri": "register.feature"
+  }
+]
